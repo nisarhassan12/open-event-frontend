@@ -1,0 +1,11 @@
+tasks:
+  - command: gp await-port 4200 && sleep 3 && gp preview $(gp url 4200)
+  - init: |
+      yarn
+      cp .env.example .env
+      node scripts/l10n.js generate
+    command: yarn run start
+
+ports:
+  - port: 4200
+    onOpen: open-preview

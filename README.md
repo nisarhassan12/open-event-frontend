@@ -10,6 +10,7 @@
 [![Gitter](https://img.shields.io/badge/chat-on%20gitter-ff006f.svg?style=flat-square)](https://gitter.im/fossasia/open-event-frontend)
 [![Mailing](https://img.shields.io/badge/Mailing-List-red.svg)](https://groups.google.com/forum/#!forum/open-event)
 [![Twitter Follow](https://img.shields.io/twitter/follow/eventyay.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/eventyay)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)]((https://gitpod.io/from-referrer/)
 
 The front end for the **Open Event Server**
 
@@ -37,6 +38,12 @@ The Open Event Frontend can be easily deployed on a variety of platforms. Detail
 
 -   `yarn start`
 -   Visit your app at [http://localhost:4200](http://localhost:4200).
+
+## Online one click setup
+
+You can use [Gitpod](https://www.gitpod.io/) (an Online Open Source VS Code-like IDE which is free for Open Source) for working on issues and making PRs to this project. With a single click it will automatically clone this repo, install all the dependencies and start the dev server so that you can start hacking around straight away.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
 ### Code Generators
 
